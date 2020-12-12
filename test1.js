@@ -55,7 +55,7 @@ bot.on('message', function (message) {
     message.channel.send("@toto Hello toto!");
     message.reply("Vive les tutos !");
   } else if (message.content == '!ping') {
-    message.reply("pong");
+    message.reply("Ping Pong !");
   } else if (message.content == '!hello') {
     message.author.send("Hello "+message.author.username+" !");
   } else if (message.content.indexOf('!member')===0) {
