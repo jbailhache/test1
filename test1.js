@@ -154,7 +154,7 @@ COMMANDES POUR LE CAPITAINE :\n\
 
 bot.on("ready", function () {
   console.log("Je suis connecté !");
-  bot.user.setUsername("L'ordinateur de bord");
+  bot.user.setUsername("TestODB");
   //console.log(bot.channels);
   channel = bot.channels.cache.find(channel => channel.name == "Test");
   if (channel) {
